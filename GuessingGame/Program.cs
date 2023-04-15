@@ -19,7 +19,7 @@ class GuessingGame
             int texmin = int.Parse(Console.ReadLine());
             
 
-            if (texminler > 4)
+            if (texminler > 3 && eded != texmin)
             {
                 Console.WriteLine("5 defeye tapa bilmedin");
                 Console.WriteLine("Tutdugum eded " + eded + " idi");
